@@ -1,0 +1,14 @@
+@media(max-width: 992px){
+	.btn-newslestter{
+		width: 30%
+	}
+	input[type=text]{
+		width: 100%;
+	}
+
+	.card-events{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+

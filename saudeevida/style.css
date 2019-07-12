@@ -1,0 +1,77 @@
+.home{
+    background-image: url('Assets/Img/bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.row{
+	margin: 0px !important;
+}
+
+nav{
+    z-index: 1;
+    width: 100%;
+    position: absolute !important;
+}
+
+.logo{
+    width: 50px;
+}
+
+.title-section{
+    color: #01bb00;
+	text-align: center;
+	font-size: 30px;
+	padding: 50px 0px 25px 0px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.text-content > h2{
+    font-weight: 800;
+}
+
+.highlight{
+    color: #01bb00;
+}
+
+.newlestter{
+    background-color: #212529;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+/* Newlestter */
+.newlesster-text{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+.btn-newslestter{
+	border-radius: 30px;
+	width: 14%;
+	margin-left: 5px;
+	font-size: 20px;
+
+}
+
+
+/* NAV */
+nav a{
+	cursor:pointer;
+}
+
+nav a:hover{
+	color: #01bb00 !important;
+}
+
+.navbar-toggler{
+	outline: none !important;
+}

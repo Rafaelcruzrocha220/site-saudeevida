@@ -1,0 +1,19 @@
+.btn-up{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    color: white;
+    z-index: 100;
+    background-color: #01bb00;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-up span{
+    font-size: 12px;
+}

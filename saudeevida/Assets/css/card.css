@@ -1,0 +1,95 @@
+.eventos{
+    position: relative;
+}
+
+.card-events {
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+/* .card-events:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+} */
+.card-events .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card-events .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.card-events .box .img img {
+    width:100%;
+    height:100%;
+}
+.card-events .box h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+.card-events .box h2 span {
+    font-size:14px;
+    background:#01bb00;
+    color:#fff;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:15px;
+}
+.card-events .box p {
+    color:#262626;
+}
+.card-events .box span {
+    display:inline-flex;
+}
+.card-events .box ul {
+    margin:0;
+    padding:0;
+}
+.card-events .box ul li {
+    list-style:none;
+    float:left;
+}
+.card-events .box ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card-events .box ul li:hover a {
+    color:#01bb00;
+    transform:rotateY(360deg);
+}
+
+.card-events-items{
+    margin-bottom: 0.5rem !important;
+}
+
+.btn-events{
+    cursor: pointer;
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.btn-events:hover{
+    transition: 1s;
+    background-color: #212529;
+    border-color: #212529;
+    color: #01bb00;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}

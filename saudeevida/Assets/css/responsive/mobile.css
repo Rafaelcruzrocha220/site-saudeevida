@@ -1,0 +1,45 @@
+@media(max-width: 440px){
+	.btn-newslestter{
+		width: 40%;
+		font-size: 18px;
+    }
+
+	input[type=text]{
+		width: 100%;
+	}
+	h3{
+		font-size: 22px;
+	}
+}
+
+@media(max-width: 373px){
+	h3{
+		font-size: 20px;
+		font-weight: 600;
+	}
+	h1{
+		font-size: 28px;
+		font-weight: 400;
+	}
+}
+
+@media(max-width: 768px){
+	.btn-newslestter{
+		width: 40%
+	}
+	input[type=text]{
+		width: 100%;
+    }
+
+    nav ul{
+        padding: 0px 10px !important;
+    }
+
+    .text-content{
+        width: 80%;
+    }
+
+    .p-5 {
+        padding: 1rem!important;
+
+}
